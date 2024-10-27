@@ -16,6 +16,6 @@ repo_name = huggingface_guess.guess_repo_name(state_dict)
 print(repo_name)
 ```
 
-The above codes will print `runwayml/stable-diffusion-v1-5`. 
+The above codes will print `runwayml/stable-diffusion-v1-5`.
 
 Then you can download (or prefetch configs) from HuggingFace to instantiate models and load weights.
